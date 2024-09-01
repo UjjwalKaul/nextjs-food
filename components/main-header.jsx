@@ -6,7 +6,7 @@ const MainHeader = () => {
   return (
     <header className={classes.header}>
       <Link className={classes.logo} href="/">
-        <img src={logo.src} alt="NextLevel Food Logo" />
+        <Image priority src={logo} alt="NextLevel Food Logo" />
         NextLevel Food
       </Link>
 
